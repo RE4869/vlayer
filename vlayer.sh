@@ -73,7 +73,7 @@ function install_environment() {
     # 初始化项目
     cd /root
     echo "📁 初始化 simple 项目 | Initializing project..."
-    vlayer init simple
+    vlayer init simple --template simple-web-proof
 
     # 构建合约
     cd /root/simple
